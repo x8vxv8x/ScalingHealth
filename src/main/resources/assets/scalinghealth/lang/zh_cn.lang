@@ -1,0 +1,134 @@
+itemGroup.scalinghealth=Scaling Health
+
+#########
+# Items #
+#########
+
+item.scalinghealth.crystalshard.name=心之水晶碎片
+item.scalinghealth.enchanted_heart.name=蕴魔之心
+item.scalinghealth.cursed_heart.name=诅咒之心
+item.scalinghealth.difficultychanger.effectDesc=难度 %s
+item.scalinghealth.heartcontainer.name=心之容器
+item.scalinghealth.heartcontainer.desc=永久增加生命值
+item.scalinghealth.heartcontainer.notEnoughXP=你需要 %d 点经验来使用它
+item.scalinghealth.heartdust.name=心粉
+
+############
+# Commands #
+############
+
+command.scalinghealth.outOfBounds=该参数必须在 %s 与 %s 之间.
+command.scalinghealth.recalculate.result=重新计算 %d 实体的难度和状态,查看日志以获取更多信息
+command.scalinghealth.showDifficulty=%s的难度为: %s / %s
+command.scalinghealth.setDifficulty=将玩家%s的难度设置为 %s.
+command.scalinghealth.showHeartUses=%s的心之容器使用次数为: %s / %s
+command.scalinghealth.setHeartUses=将玩家%s的心之容器使用次数设置为 %s.
+command.scalinghealth.wealthReloaded=难度额外掉落已重新加载: %d 个实体, %d 个池, %d 条掉落, %d 个无效项.
+command.scalinghealth.wealthStats=难度额外掉落: %d 个实体, %d 个池, %d 条掉落, %d 个无效项.
+
+########
+# Misc #
+########
+
+misc.scalinghealth.difficultyMeterText=难度
+
+##########
+# Config #
+##########
+
+config.scalinghealth.title=Scaling Health 配置
+config.scalinghealth.main.debug=调试
+config.scalinghealth.main.client=客户端
+config.scalinghealth.main.player.damage=玩家伤害缩放
+config.scalinghealth.main.player.health=玩家生命值
+config.scalinghealth.main.player.regen=玩家额外恢复
+config.scalinghealth.main.fake_players=假玩家
+config.scalinghealth.main.mob=怪物
+config.scalinghealth.main.mob.health=怪物生命值
+config.scalinghealth.main.mob.potion=怪物药水效果
+config.scalinghealth.main.pets=宠物
+config.scalinghealth.main.items=物品
+config.scalinghealth.main.items.cursed_heart=诅咒之心
+config.scalinghealth.main.items.enchanted_heart=蕴魔之心
+config.scalinghealth.main.wealth=难度额外掉落
+config.scalinghealth.main.difficulty=难度
+config.scalinghealth.main.difficulty.lunar_phases=月相难度
+
+config.scalinghealth.main.debug.debug_mode=调试模式
+config.scalinghealth.main.debug.debug_overlay=调试叠加层
+config.scalinghealth.main.debug.log_spawns=记录生成日志
+config.scalinghealth.main.debug.log_player_damage=记录玩家伤害日志
+config.scalinghealth.main.client.render_difficulty_meter=显示难度条
+config.scalinghealth.main.client.render_difficulty_meter_always=一直显示难度条
+config.scalinghealth.main.client.position_x=难度条 X 坐标
+config.scalinghealth.main.client.position_y=难度条 Y 坐标
+config.scalinghealth.main.player.health.allow_modified_health=允许修改玩家生命值
+config.scalinghealth.main.player.health.starting_health=初始生命值
+config.scalinghealth.main.player.health.max_heart_containers=最大心之容器次数
+config.scalinghealth.main.fake_players.can_generate_hearts=假玩家可生成心之容器
+config.scalinghealth.main.fake_players.have_difficulty=假玩家拥有难度
+config.scalinghealth.main.mob.damage_modifier=攻击力倍率
+config.scalinghealth.main.mob.max_damage_bonus=最大攻击力加成
+config.scalinghealth.main.mob.potion_chance_hostiles=敌对怪物药水概率
+config.scalinghealth.main.mob.potion_chance_passives=被动生物药水概率
+config.scalinghealth.main.mob.xp_boost=经验加成
+config.scalinghealth.main.mob.damage_bonus_blacklist=攻击力加成黑名单
+config.scalinghealth.main.mob.health.allow_boss_extra_health=允许 Boss 额外生命值
+config.scalinghealth.main.mob.health.allow_peaceful_extra_health=允许被动生物额外生命值
+config.scalinghealth.main.mob.health.allow_hostile_extra_health=允许敌对怪物额外生命值
+config.scalinghealth.main.mob.health.base_health_modifier=敌对怪物生命倍率
+config.scalinghealth.main.mob.health.base_health_modifier_peaceful=被动生物生命倍率
+config.scalinghealth.main.mob.health.scaling_mode=生命值缩放模式
+config.scalinghealth.main.mob.health.dimension_blacklist=维度黑名单
+config.scalinghealth.main.mob.health.blacklist_list=生命缩放名单
+config.scalinghealth.main.mob.health.blacklist_iswhitelist=生命缩放名单为白名单
+config.scalinghealth.main.mob.potion.mob_potions=怪物药水效果
+config.scalinghealth.main.items.hearts_dropped_by_boss_min=Boss 最小心之容器掉落
+config.scalinghealth.main.items.hearts_dropped_by_boss_max=Boss 最大心之容器掉落
+config.scalinghealth.main.items.heart_drop_chance=敌对怪物心之容器概率
+config.scalinghealth.main.items.heart_drop_chance_passive=被动生物心之容器概率
+config.scalinghealth.main.items.drop_shards_instead_of_containers=掉落碎片而非容器
+config.scalinghealth.main.items.heart_healing_event=心之容器治疗事件
+config.scalinghealth.main.items.hearts_health_restored=心之容器立即恢复
+config.scalinghealth.main.items.health_per_heart_container=每个容器增加生命值
+config.scalinghealth.main.items.heart_xp_level_cost=心之容器经验等级消耗
+config.scalinghealth.main.items.healing_items_fire_healing_event=治疗物品触发治疗事件
+config.scalinghealth.main.items.cursed_heart.difficulty_change=诅咒之心难度变化
+config.scalinghealth.main.items.enchanted_heart.difficulty_change=蕴魔之心难度变化
+config.scalinghealth.main.wealth.enable_wealth_drops=启用难度额外掉落
+config.scalinghealth.main.wealth.warn_invalid_wealth_drops=警告无效额外掉落
+config.scalinghealth.main.wealth.difficulty_based_on_player=使用玩家难度
+config.scalinghealth.main.wealth.respect_mob_loot_game_rule=遵守 doMobLoot
+config.scalinghealth.main.wealth.require_recently_hit=要求最近被攻击
+config.scalinghealth.main.wealth.allow_fake_players=允许假玩家
+config.scalinghealth.main.difficulty.group_area_bonus=局部多人加成
+config.scalinghealth.main.difficulty.lost_on_death=死亡损失难度
+config.scalinghealth.main.difficulty.max_value=最大难度
+config.scalinghealth.main.difficulty.min_value=最小难度
+config.scalinghealth.main.difficulty.difficulty_per_boss_kill=击杀 Boss 难度变化
+config.scalinghealth.main.difficulty.difficulty_per_kill=击杀敌对怪物难度变化
+config.scalinghealth.main.difficulty.difficulty_per_passive_kill=击杀被动生物难度变化
+config.scalinghealth.main.difficulty.search_radius=搜索半径
+config.scalinghealth.main.difficulty.starting_value=初始难度
+config.scalinghealth.main.difficulty.stats_consume_difficulty=属性消耗难度
+config.scalinghealth.main.difficulty.area_mode=区域难度模式
+config.scalinghealth.main.difficulty.exempt_players=豁免玩家
+config.scalinghealth.main.difficulty.difficulty_per_kill_by_mob=按实体击杀难度
+config.scalinghealth.main.difficulty.difficulty_dimension_multiplier=维度难度增长倍率
+config.scalinghealth.main.difficulty.dimension_value_factor=维度难度数值修正
+config.scalinghealth.main.difficulty.lunar_phases.lunar_phases_enabled=启用月相难度
+config.scalinghealth.main.difficulty.lunar_phases.lunar_phase_multipliers=月相倍率
+config.scalinghealth.main.player.damage.generic_scale=默认伤害缩放
+config.scalinghealth.main.player.damage.difficulty_weight=难度权重
+config.scalinghealth.main.player.damage.scaling_mode=伤害缩放模式
+config.scalinghealth.main.player.damage.affect_hostile_mobs=影响敌对怪物
+config.scalinghealth.main.player.damage.affect_passive_mobs=影响被动生物
+config.scalinghealth.main.player.damage.scale_by_source=按伤害来源缩放
+
+
+
+# Sound effect subtitles
+
+scalinghealth.subtitle.cursed_heart_use=诅咒之心被使用
+scalinghealth.subtitle.enchanted_heart_use=蕴魔之心被使用
+scalinghealth.subtitle.heart_container_use=心之容器被使用
